@@ -3,23 +3,48 @@ body {
     padding: 0;
     max-width: 100%;
     width: 100%;
+    background-color: rgb(231, 84, 30);
+
+    /* Font */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    color: rgb(3, 41, 71);
+    font-weight: 500;
 }
 
 .container {
-    /* margin: 16rem; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 4em 4em;
-    grid-template-areas: ". .";
+    background-color: rgb(245, 127, 84);
+
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+
+    margin: 4rem;
+    display: flex;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    width: 80vw;
+    height: 80vh;
+    max-width: 80vw;
+    max-height: 80vh;
   }
 
 .item {
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+
+    float: left;
+
+    max-width: auto;
+
+    word-wrap: none;
 }
 
 .item img {
-    width: 22.5rem;
-    height: 40rem;
+    width: 100%;
+    height: auto;
+    border: 1px solid blue;
+    border-radius: 4px;
 }
