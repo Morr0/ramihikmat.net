@@ -14,7 +14,7 @@
         .container {
             background-color: rgb(211, 211, 211);
             margin-top: 12rem;
-            border-radius: 2rem;
+            border-radius: 0 2rem 2rem 0;
             font-family: 'Open Sans', sans-serif;
         }
 
@@ -22,6 +22,19 @@
             width: 25%;
             float: left;
             margin-right: 1.5rem;
+
+            /* Animation from 0 to 1 opacity */
+            animation: show 2s;
+        }
+
+        @keyframes show {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
 
         .text {
