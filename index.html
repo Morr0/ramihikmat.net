@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Rami Hikmat</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Google font and Pure.CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <style>
@@ -41,24 +42,23 @@
             margin: 0 auto;
             font-family: 'Open Sans', sans-serif;
             font-size: 1.2em;
+            padding: 2rem;
         }
 
         .pure-menu-item {
             background-color: sandybrown;
             border-radius: 4rem;
-            font-family: 'Open Sans', sans-serif;
-            color: rgb(51, 51, 51);
             
-            -moz-transition: all 1s ease-in;
-            -o-transition: all 1s ease-in;
-            -webkit-transition: all 1s ease-in;
-            transition: all 1s ease-in;
+            transition: all 1s;
         }
 
         .pure-menu-item:hover {
             border-radius: 4rem;
+        }
+
+        .pure-menu-item a {
             font-family: 'Open Sans', sans-serif;
-            color: rgb(155, 155, 155);
+            color: rgb(51, 51, 51);
         }
     </style>
 </head>
@@ -68,16 +68,13 @@
         <div class="pure-u-3-5 container">
             <img src="./statics/me.jpg" alt="My personal picture">
             <div class="text">
-                <h1>
+                <h1 style="animation: show 2s;">
                     Rami Hikmat
                 </h1>
                 Known as a leader since younghood, helped and participated in a lot of activities some of which were in the NSW parliament. I am very interested in Software Architecture/Engineering and how it relates to IoT as well as improving the world to be a better place. Currently, focused on web development through blogging and creating new websites/backends for me and for clients.
                 Currently striving to land a job as a back-end software engineer. Experienced using Javascript and Java. Striving to be better at Python.
                 <br><br><br>
                 <div class="pure-menu pure-menu-horizontal">
-                    <a class="pure-menu-heading pure-menu-link" aria-disabled=""></a>
-                    <a href="#" class="pure-menu-heading pure-menu-link"></a>
-                    <a href="#" class="pure-menu-heading pure-menu-link"></a>
                     <ul class="pure-menu-list">
                         <li class="pure-menu-item">
                             <a href="https://blog.ramihikmat.net" target="_blank" class="pure-menu-link">Blog</a>
