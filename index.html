@@ -5,19 +5,47 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Rami Hikmat</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <style>
+        body {
+            background-color: sandybrown;
+        }
         .container {
+            background-color: rgb(211, 211, 211);
             margin-top: 12rem;
+            border-radius: 2rem;
+            font-family: 'Open Sans', sans-serif;
         }
 
         img {
             width: 25%;
             float: left;
-            margin-right: 2rem;
+            margin-right: 1.5rem;
         }
 
         .text {
+            margin: 0 auto;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2em;
+        }
+
+        .pure-menu-item {
+            background-color: sandybrown;
+            border-radius: 4rem;
+            font-family: 'Open Sans', sans-serif;
+            color: rgb(51, 51, 51);
+            
+            -moz-transition: all 1s ease-in;
+            -o-transition: all 1s ease-in;
+            -webkit-transition: all 1s ease-in;
+            transition: all 1s ease-in;
+        }
+
+        .pure-menu-item:hover {
+            border-radius: 4rem;
+            font-family: 'Open Sans', sans-serif;
+            color: rgb(155, 155, 155);
         }
     </style>
 </head>
@@ -27,20 +55,31 @@
         <div class="pure-u-3-5 container">
             <img src="./statics/me.jpg" alt="My personal picture">
             <div class="text">
+                <h1>
+                    Rami Hikmat
+                </h1>
                 Known as a leader since younghood, helped and participated in a lot of activities some of which were in the NSW parliament. I am very interested in Software Architecture/Engineering and how it relates to IoT as well as improving the world to be a better place. Currently, focused on web development through blogging and creating new websites/backends for me and for clients.
                 Currently striving to land a job as a back-end software engineer. Experienced using Javascript and Java. Striving to be better at Python.
-                <br>
-                <ul class="links">
-                    <li class="link">
-                        <a href="https://blog.ramihikmat.net" target="_blank">Blog</a>
-                    </li>
-                    <li class="link">
-                        <a href="https://github.com/Morr0" target="_blank">Github</a>
-                    </li>
-                    <li class="link">
-                        <a href="https://www.linkedin.com/in/rami-hikmat/" target="_blank">Linkedin</a>
-                    </li>
-                </ul>
+                <br><br><br>
+                <div class="pure-menu pure-menu-horizontal">
+                    <a class="pure-menu-heading pure-menu-link" aria-disabled=""></a>
+                    <a href="#" class="pure-menu-heading pure-menu-link"></a>
+                    <a href="#" class="pure-menu-heading pure-menu-link"></a>
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item">
+                            <a href="https://blog.ramihikmat.net" target="_blank" class="pure-menu-link">Blog</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="https://github.com/Morr0" target="_blank" class="pure-menu-link">Github</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="https://www.linkedin.com/in/rami-hikmat/" target="_blank" class="pure-menu-link">Linkedin</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="https://blog.ramihikmat.net/askcontact" target="_blank" class="pure-menu-link">Ask/Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>  
         </div>
         <div class="pure-u-1-5"></div>
